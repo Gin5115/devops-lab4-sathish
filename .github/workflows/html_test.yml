@@ -14,4 +14,4 @@ jobs:
           fi
       - name: Validate HTML structure
         run: |
-          grep -q "<html lang="en">" index.html
+          grep -q '<html lang="en">' index.html
